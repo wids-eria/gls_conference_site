@@ -43,7 +43,9 @@
 	<?php wp_head(); ?>
 	
 	
-	
+	<!-- favicon -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.net/hwr0tsw.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -79,12 +81,12 @@
     <ul class="navigation">
         <a href="http://localhost/glsc_wp/"> <li class="nav_logo floatleft"></li> </a>
         <a href=""> <li class="nav_button floatleft">Register</li> </a>
-        <a href=""> <li class="nav_button floatleft">Program</li> </a>
-        <a href=""> <li class="nav_button floatleft">Speakers</li> </a>
-        <a href=""> <li class="nav_button floatleft">Location</li> </a>
-        <a href="http://localhost/glsc_wp/?page_id=7"> <li class="nav_button floatleft">Organizers</li> </a>
-        <a href=""> <li class="nav_button floatleft">Art</li> </a>
-        <a href=""> <li class="nav_button last_nav floatleft">GLS</li> </a>
+        <a href="http://localhost/glsc_wp/?page_id=91"> <li class="nav_program_page nav_button floatleft">Program</li> </a>
+        <a href="http://localhost/glsc_wp/?page_id=94"> <li class="nav_speakers_page nav_button floatleft">Speakers</li> </a>
+        <a href="http://localhost/glsc_wp/?page_id=89"> <li class="nav_location_page nav_button floatleft">Location</li> </a>
+        <a href="http://localhost/glsc_wp/?page_id=7"> <li class="nav_organizers_page nav_button floatleft">Organizers</li> </a>
+        <a href="http://localhost/glsc_wp/?page_id=111"> <li class="nav_art_page nav_button floatleft">Art</li> </a>
+        <a href="http://www.gameslearningsociety.org/"> <li class="nav_button last_nav floatleft">GLS</li> </a>
     </ul>
     
 </div>

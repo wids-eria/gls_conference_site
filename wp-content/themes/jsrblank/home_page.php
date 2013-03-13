@@ -142,7 +142,7 @@
             </div>
             
             <div class="feature_content">
-                <a href=""> <div class="static_map"></div> </a>
+                <a href="http://localhost/glsc_wp/?page_id=91"> <div class="static_map"></div> </a>
             </div>
             
         </div>
@@ -162,7 +162,7 @@
             
             
             <!-- Dani Herro -->
-            <a href="">
+            <a href="http://www.clemson.edu/hehd/departments/education/faculty-staff/profile.html?userid=dherro" target="_blank">
                 <div class="speaker">
                     
                     <div class="speaker_dani"></div>
@@ -178,7 +178,7 @@
             
             
             <!-- Dani Mary -->
-            <a href="">
+            <a href="http://www.maryflanagan.com/" target="_blank">
                 <div class="speaker">
                     
                     <div class="speaker_mary"></div>
@@ -194,7 +194,7 @@
             
             
             <!-- Dani Steve -->
-            <a href="">
+            <a href="http://junyo.com/about/" target="_blank">
                 <div class="speaker">
                     
                     <div class="speaker_steve"></div>
@@ -213,7 +213,7 @@
             <a href="">
                 <div class="speaker">
                     
-                    <div class="speaker_dani"></div>
+                    <div class="speaker_tbd"></div>
                     
                     <div class="speaker_label">
                         <p class="speaker_name">TBD</p>

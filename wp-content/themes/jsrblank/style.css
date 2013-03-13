@@ -27,8 +27,14 @@ a{ text-decoration:none; }
     color:#5b6984;
     text-shadow:0px 1px 0px solid black;
 }
-    .basic_container a:hover{
-	color:#5b6984;
+
+.basic_container_art a,
+.travel_description a{ color:#8ba2d2; }
+
+    .basic_container a:hover,
+    .basic_container_art a:hover,
+    .travel_description a:hover{
+	color:#8ba2d2;
         text-decoration:underline;
     }
     
@@ -41,8 +47,38 @@ p{  }
     color:#3b4967;
     text-shadow:0px 1px 0px black;
 }
+    .basic_container_art p,
+    .map_container p{
+	font-family:alwyn-new-rounded-web;
+	font-size:17px;
+	color:#5b6984;
+    }
+    
+    p.travel_description{
+	width:760px;
+	font-family:alwyn-new-rounded-web;
+	font-size:13px;
+	color:#5b6984;
+    }
+    
+    p.small_text{
+	font-family:alwyn-new-rounded-web;
+	font-size:12px;
+	width:100%;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	color:#414b5e;
+    }
 
 ul{ list-style:none; }
+    
+    .basic_container_art ul { list-style:disc; margin-top:10px; }
+	.basic_container_art ul li{
+	    font-family:alwyn-new-rounded-web;
+	    font-size:17px;
+	    color:#5b6984;
+	    margin-left:50px;
+	}
 
 hr{  }
 
@@ -58,7 +94,38 @@ h1{  }
     text-shadow:0px 3px 0px black;
 }
 
-h3{  }
+h2{
+    font-family: alternate-gothic-no-1-d;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color:#8ba2d2;
+    font-size:40px;
+    text-transform:uppercase;
+    text-shadow:0px 3px 0px black;
+}
+
+    h2.page_label{
+	font-family: alternate-gothic-no-1-d;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color:#536183;
+	font-size:40px;
+	text-transform:uppercase;
+	text-shadow:0px 3px 0px black;
+	margin:0 0 20px 0;
+    }
+
+h3{
+    font-family: alwyn-new-rounded-web;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color:#536183;
+    font-size:20px;
+    font-weight:700;
+    text-transform:uppercase;
+    text-shadow:0px 3px 0px black;
+}
+
 h4{  }
 h5{  }
 
@@ -67,6 +134,8 @@ h5{  }
     color:white;
     text-shadow:none;
 }
+
+iframe{ margin:20px 0 20px 0; float:left; }
 
 /* End Global Elements */
 
@@ -86,12 +155,28 @@ h5{  }
 .all_caps{ text-transform:uppercase; }
 .lower_case{ text-transform:lowercase; }
 
+.alignright{ text-align:right; }
+
+
+/* These are to fix "add media" properties from visual editor */
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignleft { float: left; margin:10px 10px 10px 0; }
+.alignright { float: right; margin:10px 0 10px 10px; }
+
+
  
 /* Active Page */
 
-    /*
-      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
-    */
+      body.page-id-91 .navigation li.nav_program_page,
+      body.page-id-94 .navigation li.nav_speakers_page,
+      body.page-id-89 .navigation li.nav_location_page,
+      body.page-id-7 .navigation li.nav_organizers_page,
+      body.page-id-111 .navigation li.nav_art_page
+      { text-shadow:0px 0px 7px rgba(255,255,255,.75); background:rgba( 78,136,182,.20); }
 
 /* End Active Page */
 
@@ -125,12 +210,13 @@ end typekit */
 
 .basic_container{
     text-align:center;
-    float:left;
-    width:100%;
+    width:480px;
     padding:10px 0 10px 0;
     margin:0 0 20px 0;
-    background:url(images/organizers_bg.png) no-repeat; 
+    background:url(images/organizers_bg.png) 50%  no-repeat; 
 }
+
+.static_container{ background:url(images/keynote_bg.png) no-repeat; }
 
 /* End Containers */
 
@@ -158,7 +244,7 @@ end typekit */
         .navigation li.nav_button{
             line-height:51px;
             font-size:18px;
-            padding:0 22px 0 22px;
+            padding:0 20px 0 20px;
             text-transform:uppercase;
             letter-spacing:1px;
             font-family: alwyn-new-rounded-web;
@@ -428,7 +514,7 @@ end typekit */
             .speaker_tbd{
                 width:225px;
                 height:199px;
-                background:url(images/speaker_dani.png);
+                background:url(images/speaker_tbd.png);
                 float:left;
             }
             
@@ -461,6 +547,83 @@ end typekit */
                 }
 
 /* Keynotes */
+
+
+/* ----------------------------------------- Location Page -----------------------------------------------------*/
+
+.register_here_container{
+    height:260px;
+    width:340px;
+    margin:120px 0 0 0;
+    float:right;
+}
+    .register_here_container h3{
+	float:left;
+	text-align:center;
+	width:100%;
+	font-family: alwyn-new-rounded-web;
+	font-weight: 100;
+	letter-spacing: 1px;
+	color:#536183;
+	font-size:20px;
+	font-weight:700;
+	text-transform:uppercase;
+    }
+    
+    .large_register_button{
+	float:left;
+	height:62px;
+	width:340px;
+	margin:10px 0 10px 0;
+	background:url(images/large_register_button.png);
+    }
+	.large_register_button:hover{
+	    background:url(images/large_register_button_hover.png);
+	}
+	
+.things_to_do_container{
+    width:100%;
+    float:left;
+    margin:20px 0 0 0;
+    padding:20px 0 0 0;
+}
+
+.map_container{
+    width:620px;
+    float:left;
+}
+
+.travel_container{
+    width:850px;
+    margin:0 0 10px 0;
+    padding:10px;
+    float:right;
+    background:rgba(0,0,0,.25);
+    border-bottom:1px solid #111d36;
+}
+    .travel_by_air{
+	margin-right:10px;
+	height:71px;
+	width:70px;
+	background:url(images/by_air.png);
+    }
+    
+    .travel_by_car{
+	margin-right:10px;
+	height:71px;
+	width:70px;
+	background:url(images/by_car.png);
+    }
+    
+    .travel_by_bus{
+	margin-right:10px;
+	height:71px;
+	width:70px;
+	background:url(images/by_bus.png);
+    }
+    
+
+/* end Location page */
 
 
 /* ----------------------------------------- Footer -----------------------------------------------------*/
@@ -629,6 +792,8 @@ code, tt { }
 .group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 * html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
 
+
+p.wp-caption-text{ font-size:11px !important; text-align:center; }
 
 
 /* METADATA CONTAINER */
