@@ -108,19 +108,19 @@
             
             <div class="feature_content">
                 
-                <a href="">
+               
                     <div class="feature_date_container">
                         <p class="feature_date_pink">Pre-Conference Activities</p>
                         <p class="feature_date_white">June 11, 2013</p>
                     </div>
-                </a>
                 
-                <a href="">                
+                
+                                
                     <div class="feature_date_container">
                         <p class="feature_date_pink">GLS Conference</p>
                         <p class="feature_date_white">June 12-14, 2013</p>
                     </div>
-                </a>
+                
                 
             </div>
             
@@ -142,7 +142,7 @@
             </div>
             
             <div class="feature_content">
-                <a href="http://localhost/glsc_wp/?page_id=91"> <div class="static_map"></div> </a>
+                <a href="http://localhost/glsc_wp/?page_id=91"> <div class="static_schedule"></div> </a>
             </div>
             
         </div>
@@ -210,13 +210,13 @@
             
             
             <!-- Dani TBD -->
-            <a href="">
+            <a href="http://www.satori.org/" target="_blank">
                 <div class="speaker">
                     
-                    <div class="speaker_tbd"></div>
+                    <div class="speaker_mark"></div>
                     
                     <div class="speaker_label">
-                        <p class="speaker_name">TBD</p>
+                        <p class="speaker_name">Mark DeLoura</p>
                         <p class="speaking_at">GLS Keynote Speaker</p>
                         
                     </div>
