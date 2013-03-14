@@ -11,8 +11,6 @@ of the #page_wrap, followed by three small containers underneath -->
 
 <div class="content_container">
 
-<br />
-
 <div class="page_wrap">
 
 <a id="sched-embed" href="http://gls2013.sched.org/">
