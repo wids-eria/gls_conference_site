@@ -799,6 +799,39 @@ end typekit */
         }
         
         .lighter_blue{ color:#5b6984; }
+	
+.social{ height:19px; widht:60px; float:right; margin-top:-3px; }
+.old_sites_container{ margin-top:-4px; }
+
+.flickr_button{
+    margin-left:10px;
+    height:19px;
+    width:19px;
+    background:url(images/flickr_button.png);
+}
+    .flickr_button:hover{
+	background:url(images/flickr_button_hover.png);
+    }
+
+.twitter_button{
+    margin-left:10px;
+    height:19px;
+    width:19px;
+    background:url(images/twitter_button.png);
+}
+    .twitter_button:hover{
+	background:url(images/twitter_button_hover.png);
+    }
+
+.facebook_button{
+    margin-left:10px;
+    height:19px;
+    width:19px;
+    background:url(images/facebook_button.png);
+}
+    .facebook_button:hover{
+	background:url(images/facebook_button_hover.png);
+    }
     
 /* End Footer */
 
