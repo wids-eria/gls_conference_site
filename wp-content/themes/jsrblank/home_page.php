@@ -11,39 +11,42 @@
 <!-- full width slider -->
 <div id="fwslider">
         <div class="slider_container">
-            
+
             <div class="slide"> 
                 <!-- Slide image -->
-                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/gls_slider_banner4.png">
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/flyer_slide.png">
                 <!-- /Slide image -->
                         
                 <!-- Texts container -->
                 <div class="slide_content">
                     <div class="slide_content_wrap">
-                    </div>
-                </div>
-                <!-- /Texts container -->
-            </div>
-
-            <div class="slide"> 
-                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/people.png">
-                <div class="slide_content">
-                    <div class="slide_content_wrap">
-                        <h4 class="title">PEOPLE DOING THINGS</h4>
-                        <p class="description">Look at all them there people.</p>
-                        <a class="readmore" href="http://www.google.com">Learn More</a>
+                        <h4 class="title">HELP SPREAD THE WORD!</h4>
+                        <p class="description">Print and/or email our lovely flyer to get
+			all the <br /> fun people you know to Madison this summer!</p>
+                        <a class="readmore" href="http://www.gameslearningsociety.org/wp-content/uploads/2012/11/GLS9_slide_full.jpg">Download The Flyer Here</a>
                         <!-- /Learn more button -->
                     </div>
                 </div>
             </div>
                     
             <div class="slide"> 
-                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/sculpt.png">
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/art9.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
-                        <h4 class="title">3D SCULPT</h4>
-                        <p class="description">See this and more at the art exhibition</p>
-                        <a class="readmore" href="http://www.google.com">Learn More</a>
+                        <h4 class="title"> SUBMISSIONS CLOSED</h4>
+                        <p class="description">GLSES, Doctorial Consortium, and Art Exhibit submissions are closed.<br />
+			Notifications emails will be sent in April Good luck to yer!</p>
+                    </div>
+                </div>
+            </div>
+                    
+            <div class="slide"> 
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/gls23.png">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">GLS + CSCL = AWESOME!</h4>
+                        <p class="description">Register for both conferences, and receive a 25% discount!</p>
+			<a class="readmore" href="http://localhost/glsc_wp/?p=176">Learn More</a>
                         <!-- /Learn more button -->
                     </div>
                 </div>

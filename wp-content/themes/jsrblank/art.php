@@ -55,10 +55,10 @@ of the #page_wrap, followed by three small containers underneath -->
 			
 				<div <?php post_class() ?>>
 
-						<div class="basic_container_art floatleft">
-							<?php the_content(); ?>
-							<br />
-						</div>
+					<div class="basic_container_art floatleft">
+						<?php the_content(); ?>
+						<br />
+					</div>
 
 				</div>
 
