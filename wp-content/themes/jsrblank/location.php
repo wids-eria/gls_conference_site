@@ -22,7 +22,7 @@ of the #page_wrap, followed by three small containers underneath -->
     
         <h3 class="center_text">Want to attend GLSC 9.0?</h3>
         
-        <a href="" target="_blank"> <div class="large_register_button"></div> </a>
+        <a href="http://localhost/glsc_wp/?p=180" target="_blank"> <div class="large_register_button"></div> </a>
         
         <p class="small_text center_text floatleft">Registration open as of March 15, 2013</p>
     

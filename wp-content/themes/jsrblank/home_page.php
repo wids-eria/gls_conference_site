@@ -35,7 +35,7 @@
                     <div class="slide_content_wrap">
                         <h4 class="title"> SUBMISSIONS CLOSED</h4>
                         <p class="description">GLSES, Doctorial Consortium, and Art Exhibit submissions are closed.<br />
-			Notifications emails will be sent in April Good luck to yer!</p>
+			Notifications emails will be sent in April. Good luck to yer!</p>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     </div>
                     
                     <div class="register_button_container">
-                        <a href=""> <div class="register_button"></div> </a>
+                        <a href="http://localhost/glsc_wp/?p=180"> <div class="register_button"></div> </a>
                     </div>
                 </div>
                 
