@@ -55,13 +55,13 @@
 	<meta charset="utf-8">
 	<meta name="HandheldFriendly" content="True">
     
-	<link rel="stylesheet" href="wp-content/themes/jsrblank/fwslider2/css/fwslider.css" media="all">
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/fwslider2/css/fwslider.css" media="all">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<script src="wp-content/themes/jsrblank/fwslider2/js/css3-mediaqueries.js"></script>
-	<script src="wp-content/themes/jsrblank/fwslider2/js/fwslider.js"></script>
+	<script src="<?= bloginfo('template_directory'); ?>/fwslider2/js/css3-mediaqueries.js"></script>
+	<script src="<?= bloginfo('template_directory'); ?>/fwslider2/js/fwslider.js"></script>
 	<script type="text/javascript">
 	    $(window).load(function(){
 		new fwslider().init({
@@ -77,15 +77,15 @@
 
 
 <div class="navigation_container">
-    
     <ul class="navigation">
-        <a href="http://localhost/glsc_wp/"> <li class="nav_logo floatleft"></li> </a>
-        <a href=""> <li class="nav_button floatleft">Register</li> </a>
-        <a href="http://localhost/glsc_wp/?page_id=91"> <li class="nav_program_page nav_button floatleft">Program</li> </a>
-        <a href="http://localhost/glsc_wp/?page_id=94"> <li class="nav_speakers_page nav_button floatleft">Speakers</li> </a>
-        <a href="http://localhost/glsc_wp/?page_id=89"> <li class="nav_location_page nav_button floatleft">Location</li> </a>
-        <a href="http://localhost/glsc_wp/?page_id=7"> <li class="nav_organizers_page nav_button floatleft">Organizers</li> </a>
-        <a href="http://localhost/glsc_wp/?page_id=111"> <li class="nav_art_page nav_button floatleft">Art</li> </a>
+        <a href="<?= bloginfo('url'); ?>"> <li class="nav_logo floatleft"></li> </a>
+        <a href="<?= bloginfo('url'); ?>"> <li class="nav_button floatleft">Register</li> </a>
+        <!-- ids 91 94 89 7 11 -->
+        <a href="<?= get_page_link(get_page_by_title('Program'))    ?>"> <li class="nav_program_page nav_button floatleft">Program</li> </a>
+        <a href="<?= get_page_link(get_page_by_title('Speakers'))   ?>"> <li class="nav_speakers_page nav_button floatleft">Speakers</li> </a>
+        <a href="<?= get_page_link(get_page_by_title('Location'))   ?>"> <li class="nav_location_page nav_button floatleft">Location</li> </a>
+        <a href="<?= get_page_link(get_page_by_title('Organizers')) ?>"> <li class="nav_organizers_page nav_button floatleft">Organizers</li> </a>
+        <a href="<?= get_page_link(get_page_by_title('Art'))        ?>"> <li class="nav_art_page nav_button floatleft">Art</li> </a>
         <a href="http://www.gameslearningsociety.org/"> <li class="nav_button last_nav floatleft">GLS</li> </a>
     </ul>
     

@@ -14,7 +14,7 @@
             
             <div class="slide"> 
                 <!-- Slide image -->
-                <img src="wp-content/themes/jsrblank/images/slider_images/gls_slider_banner4.png">
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/gls_slider_banner4.png">
                 <!-- /Slide image -->
                         
                 <!-- Texts container -->
@@ -26,7 +26,7 @@
             </div>
 
             <div class="slide"> 
-                <img src="wp-content/themes/jsrblank/images/slider_images/people.png">
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/people.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <h4 class="title">PEOPLE DOING THINGS</h4>
@@ -38,7 +38,7 @@
             </div>
                     
             <div class="slide"> 
-                <img src="wp-content/themes/jsrblank/images/slider_images/sculpt.png">
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/sculpt.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <h4 class="title">3D SCULPT</h4>
