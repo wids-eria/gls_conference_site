@@ -11,13 +11,9 @@
 <!-- full width slider -->
 <div id="fwslider">
         <div class="slider_container">
-
+            
             <div class="slide"> 
-                <!-- Slide image -->
                 <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/flyer_slide.png">
-                <!-- /Slide image -->
-                        
-                <!-- Texts container -->
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <h4 class="title">HELP SPREAD THE WORD!</h4>
@@ -28,7 +24,7 @@
                     </div>
                 </div>
             </div>
-                    
+
             <div class="slide"> 
                 <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/art9.png">
                 <div class="slide_content">
@@ -46,7 +42,7 @@
                     <div class="slide_content_wrap">
                         <h4 class="title">GLS + CSCL = AWESOME!</h4>
                         <p class="description">Register for both conferences, and receive a 25% discount!</p>
-			<a class="readmore" href="http://localhost/glsc_wp/?p=176">Learn More</a>
+			<a class="readmore" href="<?= get_permalink( 176 ); ?>">Learn More</a>
                         <!-- /Learn more button -->
                     </div>
                 </div>
@@ -83,7 +79,7 @@
             </div>
             
             <div class="feature_content">
-                <a href=""> <div class="static_map"></div> </a>
+                <a href="<?= get_permalink( 89 ); ?>"> <div class="static_map"></div> </a>
             </div>
             
         </div>
@@ -103,7 +99,7 @@
                     </div>
                     
                     <div class="register_button_container">
-                        <a href="http://localhost/glsc_wp/?p=180"> <div class="register_button"></div> </a>
+                        <a href="<?= get_permalink( 180 ); ?>"> <div class="register_button"></div> </a>
                     </div>
                 </div>
                 
@@ -145,7 +141,7 @@
             </div>
             
             <div class="feature_content">
-                <a href="http://localhost/glsc_wp/?page_id=91"> <div class="static_schedule"></div> </a>
+                <a href="<?= get_permalink( 91 ); ?>"> <div class="static_schedule"></div> </a>
             </div>
             
         </div>
@@ -165,7 +161,7 @@
             
             
             <!-- Dani Herro -->
-            <a href="http://www.clemson.edu/hehd/departments/education/faculty-staff/profile.html?userid=dherro" target="_blank">
+            <a href="http://www.clemson.edu/hehd/departments/education/contactus/profile.html?userid=dherro" target="_blank">
                 <div class="speaker">
                     
                     <div class="speaker_dani"></div>

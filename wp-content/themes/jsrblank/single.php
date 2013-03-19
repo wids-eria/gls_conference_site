@@ -15,7 +15,6 @@
 					<div class="basic_container_art floatleft">
 						<?php the_content(); ?>
 						<br />
-						<?php comments_template(); ?> 
 					</div>
 				
 			</div>

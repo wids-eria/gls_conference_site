@@ -27,7 +27,7 @@
     <div class="old_sites_and_contact_container">
         
 	<div class="old_sites_container floatleft">
-		<a href="http://localhost/glsc_wp/?page_id=148">Click here to view proceedings, websites, and schedules from previous years</a>
+		<a href="<?= get_permalink( 148 ); ?>">Click here to view proceedings, websites, and schedules from previous years</a>
 	</div>
         
 	<div class="social">
