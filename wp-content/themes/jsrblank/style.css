@@ -415,8 +415,7 @@ end typekit */
         -o-transition: all 0.2s ease;
         transition: all 0.2s ease;
     }
-    
-    /*
+
         .feature_date_container:hover{
             border:1px solid #7684a0;
             
@@ -426,7 +425,7 @@ end typekit */
             -o-transition: all 0.2s ease;
             transition: all 0.2s ease;
         }
-    */
+    
             p.feature_date_pink{
                 text-align:center;
                 font-family:alwyn-new-rounded-web;

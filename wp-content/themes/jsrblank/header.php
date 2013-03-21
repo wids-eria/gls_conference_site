@@ -81,7 +81,7 @@
         <a href="<?= bloginfo('url'); ?>"> <li class="nav_logo floatleft"></li> </a>
         <a href="<?= get_permalink( 180 ); ?>"> <li class="nav_button floatleft">Register</li> </a>
         <!-- ids 91 94 89 7 11 -->
-        <a href="<?= get_page_link(get_page_by_title('Program'))    ?>"> <li class="nav_program_page nav_button floatleft">Program</li> </a>
+        <a href="<?= get_page_link(get_page_by_title('Program'))    ?>"> <li class="nav_program_page nav_button floatleft">Schedule</li> </a>
         <a href="<?= get_page_link(get_page_by_title('Speakers'))   ?>"> <li class="nav_speakers_page nav_button floatleft">Speakers</li> </a>
         <a href="<?= get_page_link(get_page_by_title('Location'))   ?>"> <li class="nav_location_page nav_button floatleft">Location</li> </a>
         <a href="<?= get_page_link(get_page_by_title('Organizers')) ?>"> <li class="nav_organizers_page nav_button floatleft">Organizers</li> </a>

@@ -107,18 +107,20 @@
             
             <div class="feature_content">
                 
-               
+               <a href="">
                     <div class="feature_date_container">
                         <p class="feature_date_pink">Pre-Conference Activities</p>
                         <p class="feature_date_white">June 11, 2013</p>
                     </div>
+               </a>
                 
                 
-                                
+                <a href="">                
                     <div class="feature_date_container">
                         <p class="feature_date_pink">GLS Conference</p>
                         <p class="feature_date_white">June 12-14, 2013</p>
                     </div>
+                </a>
                 
                 
             </div>
