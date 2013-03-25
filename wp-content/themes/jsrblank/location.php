@@ -24,7 +24,7 @@ of the #page_wrap, followed by three small containers underneath -->
         
         <a href="<?= get_permalink( 180 ); ?>"> <div class="large_register_button"></div> </a>
         
-        <p class="small_text center_text floatleft">Registration open as of March 15, 2013</p>
+        
     
     </div>
     

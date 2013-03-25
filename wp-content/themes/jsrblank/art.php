@@ -15,8 +15,8 @@ of the #page_wrap, followed by three small containers underneath -->
 
 <div class="static_container floatleft">
 	<br />
-	<h2 class="center_text"> Games and Art Exhibit CFP</h2>
-	<h3 class="center_text">Games and Art Exhibition CFP - Madison, WI - June 12-14, 2013</h3>
+	<h2 class="center_text"> Games and Art Exhibit</h2>
+	<h3 class="center_text">Games and Art Exhibit - Madison, WI - June 12-14, 2013</h3>
 	
 	<br />
 

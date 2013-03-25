@@ -14,7 +14,7 @@ of the #page_wrap, followed by three small containers underneath -->
 
 <div class="page_wrap">
 
-<a id="sched-embed" data-sched-sidebar="no"href="http://gls2013.sched.org/directory/speakers">Games+Learning+Society 9.0 Schedule</a><script type="text/javascript" src="http://gls2013.sched.org/js/embed.js"></script>
+<a id="sched-embed" href="http://gls2013.sched.org/directory/speakers">Games+Learning+Society 9.0 Schedule</a><script type="text/javascript" src="http://gls2013.sched.org/js/embed.js"></script>
 
 </div> <!-- end page wrap -->
 

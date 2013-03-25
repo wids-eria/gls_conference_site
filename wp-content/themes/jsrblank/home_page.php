@@ -24,14 +24,38 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="slide"> 
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/happy_dance.png">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">THE SCHEDULE'S OUT?!</h4>
+                        <p class="description">We're all doin' a happy joust--errrr, dance!</p>
+			<a class="readmore" href="<?= get_page_link(get_page_by_title('Program'))    ?>">Click Here to see the schedule</a>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide"> 
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/playful_learning.png">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">GLSES IS NOW THE GLS PLAYFUL LEARNING SUMMIT</h4>
+                        <p class="description">The inaugural Playful Learning Summit is announced!</p>
+			<a class="readmore" href="<?= get_permalink( 233 ); ?>">Learn More</a>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+            </div>
 
             <div class="slide"> 
                 <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/art9.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
                         <h4 class="title"> SUBMISSIONS CLOSED</h4>
-                        <p class="description">GLSES, Doctorial Consortium, and Art Exhibit submissions are closed.<br />
-			Notifications emails will be sent in April. Good luck to yer!</p>
+                        <p class="description">GLSES, Doctoral Consortium, and Art Exhibit submissions are closed.<br />
+			Notification emails will be sent in April. Good luck to yer!</p>
                     </div>
                 </div>
             </div>
@@ -95,7 +119,7 @@
                 <div class="feature_header_content">
                     <div class="floatleft">
                         <p class="feature_title">Date</p>
-                        <p class="feature_subtitle">GLSC 9.0!</p>
+                        <p class="feature_subtitle">GLS 9.0!</p>
                     </div>
                     
                     <div class="register_button_container">
@@ -107,7 +131,7 @@
             
             <div class="feature_content">
                 
-               <a href="">
+               <a href="<?= get_permalink( 222 ); ?>">
                     <div class="feature_date_container">
                         <p class="feature_date_pink">Pre-Conference Activities</p>
                         <p class="feature_date_white">June 11, 2013</p>
@@ -115,7 +139,7 @@
                </a>
                 
                 
-                <a href="">                
+                <a href="<?= get_permalink( 265 ); ?>">                
                     <div class="feature_date_container">
                         <p class="feature_date_pink">GLS Conference</p>
                         <p class="feature_date_white">June 12-14, 2013</p>
