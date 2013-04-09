@@ -13,6 +13,18 @@
         <div class="slider_container">
             
             <div class="slide"> 
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/arcade_12.png">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">REGISTRATION DELAYED. ARGH</h4>
+                        <p class="description">Just trust that we love you, and when it finally does open, it will be PERFECT.</p>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="slide"> 
                 <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/flyer_slide.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
