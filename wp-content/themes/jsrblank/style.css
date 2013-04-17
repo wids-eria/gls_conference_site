@@ -741,10 +741,12 @@ end typekit */
         box-shadow:inset 0px 5px 15px black;
     }
     
+    .first_two_sponsors{ width:162px; float:left;}
+    
         .sponsors_logo_gates{
             height:32px;
             width:134px;
-            margin:40px 20px 0 25px;
+            margin:20px 0px 15px 10px;
             float:left;
             background:url(images/sponsors_logo_gates.png);
         }
@@ -755,7 +757,7 @@ end typekit */
         .sponsors_logo_drc{
             height:58px;
             width:92px;
-            margin:27px 20px 27px 0;
+            margin:27px 20px 27px 10px;
             float:left;
             background:url(images/sponsors_logo_drc.png);
         }
@@ -766,12 +768,23 @@ end typekit */
         .sponsors_logo_sf{
             height:33px;
             width:131px;
-            margin:40px 0 0 0;
+            margin:0px 0 0 10px;
             float:left;
             background:url(images/sponsors_logo_sf.png);
         }
 	    .sponsors_logo_sf:hover{
 		background:url(images/sponsors_logo_sf_hover.png);
+	    }
+	    
+	.sponsors_logo_wicc{
+            height:56px;
+            width:162px;
+            margin:25px 0 0 0;
+            float:left;
+            background:url(images/sponsors_wicc_logo.png);
+        }
+	    .sponsors_logo_wicc:hover{
+		background:url(images/wicc_logo_hover.png);
 	    }
 
 

@@ -15,9 +15,15 @@
         <div class="sponsors">
             <div class="sponsors_header"></div>
             <div class="sponsors_logo">
+	    
+	    <div class="first_two_sponsors">
                 <a href="http://www.gatesfoundation.org/" target="_blank"> <div class="sponsors_logo_gates"></div> </a>
-                <a href="http://www.datarecognitioncorp.com/Pages/default.aspx" target="_blank"> <div class="sponsors_logo_drc"></div> </a>
-                <a href="http://www.sonicfoundry.com/" target="_blank"> <div class="sponsors_logo_sf"></div> </a>
+		<a href="http://www.sonicfoundry.com/" target="_blank"> <div class="sponsors_logo_sf"></div> </a>
+            </div>
+	    
+	    <a href="http://www.datarecognitioncorp.com/Pages/default.aspx" target="_blank"> <div class="sponsors_logo_drc"></div> </a>
+	    <a href="http://standards.dpi.wi.gov/stn_ccss" target="_blank"> <div class="sponsors_logo_wicc"></div> </a>
+                
             </div>
         </div>
         
