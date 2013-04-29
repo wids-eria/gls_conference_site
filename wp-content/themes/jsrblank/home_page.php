@@ -11,13 +11,26 @@
 <!-- full width slider -->
 <div id="fwslider">
         <div class="slider_container">
-            
-            <div class="slide"> 
-                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/arcade_12.png">
+        
+        <div class="slide"> 
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/tricer.png">
                 <div class="slide_content">
                     <div class="slide_content_wrap">
-                        <h4 class="title">REGISTRATION DELAYED. ARGH</h4>
-                        <p class="description">Just trust that we love you, and when it finally does open, it will be PERFECT.</p>
+                        <h4 class="title">GLS SCHEDULE ADDITIONS!</h4>
+                        <p class="description">Playful Learning and Games & Art Exhibit
+                        <br />details have been added to the schedule</p>
+                        <a class="readmore" href="http://glsconference.org/program/">Check 'em out!</a>
+                        <!-- /Learn more button -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide"> 
+                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/regopen.png">
+                <div class="slide_content">
+                    <div class="slide_content_wrap">
+                        <h4 class="title">REGISTRATION OPEN</h4>
+                        <a class="readmore" href="http://glsconference.org/conference-registration">LEARN MORE</a>
                         <!-- /Learn more button -->
                     </div>
                 </div>
@@ -57,17 +70,6 @@
                         <p class="description">The inaugural Playful Learning Summit is announced!</p>
 			<a class="readmore" href="<?= get_permalink( 233 ); ?>">Learn More</a>
                         <!-- /Learn more button -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="slide"> 
-                <img src="<?= bloginfo('template_directory'); ?>/images/slider_images/art9.png">
-                <div class="slide_content">
-                    <div class="slide_content_wrap">
-                        <h4 class="title"> SUBMISSIONS CLOSED</h4>
-                        <p class="description">GLSES, Doctoral Consortium, and Art Exhibit submissions are closed.<br />
-			Notification emails will be sent in April. Good luck to yer!</p>
                     </div>
                 </div>
             </div>
@@ -135,7 +137,7 @@
                     </div>
                     
                     <div class="register_button_container">
-                        <a href="<?= get_permalink( 180 ); ?>"> <div class="register_button"></div> </a>
+                        <a href="https://www.regonline.com/gls9"> <div class="register_button"></div> </a>
                     </div>
                 </div>
                 
@@ -199,7 +201,7 @@
             
             
             <!-- Dani Herro -->
-            <a href="http://www.clemson.edu/hehd/departments/education/contactus/profile.html?userid=dherro" target="_blank">
+            <a href="http://glsconference.org/dani-herro/" target="_blank">
                 <div class="speaker">
                     
                     <div class="speaker_dani"></div>
